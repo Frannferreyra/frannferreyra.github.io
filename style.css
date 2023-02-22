@@ -20,7 +20,7 @@ html{
 }
 
 .inicio .contenido_seccion{
-	max-width: 1000;
+	max-width: 1000px;
 	margin: auto;
 	text-align: center;
 	padding: 0 10px;
@@ -358,6 +358,7 @@ html{
 		display: block;
 	}
 	.habilidades .contenido_seccion .fila .colum{
+		width: 100%;
 		text-align: center;
 	}
 	.habilidades .contenido_seccion .fila .colum .cont_barra{
@@ -378,7 +379,7 @@ html{
 		width: 90%;
 		margin: auto;
 	}
-	.resumen .contenido_seccion .info .titulo{
+	.resumen .contenido_seccion .info .colum .titulo{
 		display: block;
 		text-align: center;
 	}
@@ -388,4 +389,5 @@ html{
 	}
 	.contacto .contenido_seccion .fila{
 		display: block;
-}}
+	}
+}
